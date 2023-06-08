@@ -1,0 +1,28 @@
+:root {
+  --primary: #ff0019;
+  --light: #F3F3F3;
+  --grey: #8A8A8B;
+  --dark: #212121;
+}
+
+.trans-a {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  bottom: 0;
+  z-index: 101;
+  background-color: var(--primary);
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.5s ease-out;
+}
+
+.trans-a.active {
+  left: 0px;
+    pointer-events: all;
+  opacity: 1;
+}
+
+
+

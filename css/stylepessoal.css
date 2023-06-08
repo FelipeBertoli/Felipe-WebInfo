@@ -1,0 +1,172 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 0%;
+    border: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: rgb(66, 66, 66);
+    padding-top: 60px;
+}
+
+
+header {
+    background: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+nav {
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 5%;
+}
+
+.logo {
+    width: 15%;
+    margin-left: 45%;
+    border-radius: 5px;
+    padding-right: 2.5%;
+}
+
+.container {
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+    max-width: 90%;
+    max-height: 90%;
+    min-width: 0;
+    min-height: 0;
+    margin-top: 3%;
+}
+
+.container-gallery {
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+    max-width: 90%;
+    min-width: 0;
+    min-height: 0;
+    margin-top: 3%;
+}
+
+.container-text {
+    display: block;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    max-width: 90%;
+    max-height: 90%;
+    min-width: 0;
+    min-height: 0;
+    margin-top: 5px;
+}
+
+.article {
+    margin: 10px auto;
+    padding: 5px;
+}
+
+.article-text {
+    width:50%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid black;
+    background: rgb(101, 101, 101);
+}
+
+.article-gallery {
+    width: 90%;
+    margin: 10px auto;
+    border: 1px solid black;
+    padding: 5px;
+    display: flex;
+    clear: both;
+}
+
+p{
+    padding:10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20px;
+    text-shadow: 2px 1px 1px black;;
+}
+
+.img-gallery{
+    width: 300px;
+    height: 175px;
+}
+
+.form-nav {
+    font-size: 30px;
+    padding: 7px;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+input {
+    font-family: sans-serif;
+    font-size: 20px;
+    width: 30%;
+    height: 10%;
+    background: red;
+    box-shadow: 2px 1px 1px black;
+    text-shadow: 2px 1px 1px black;;
+    transition: 400ms ease-in-out;
+}
+input:hover{
+    transform: translate(0, 0) scale(1.1) rotate(0);
+    color: rgb(255, 110, 110);
+    background: rgb(154, 0, 0);
+}
+
+
+table{
+    margin: auto;
+    width: 50%;
+    padding: 5px;
+
+}
+th {
+    background: rgb(255, 5, 5);
+
+    border: 1px solid black;
+}
+table, th, td {
+
+    border-collapse: collapse;
+
+
+}
+th, td {
+    padding: 15px;
+
+}
+
+td{
+    background-color: rgb(236, 66, 66);
+}
+
+footer {
+    background: black;
+    text-align: center;
+    position: static;
+    height: 50px;
+    bottom: 0;
+    margin-top: 30px;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 0px;
+}
